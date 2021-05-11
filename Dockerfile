@@ -1,4 +1,5 @@
-FROM pytorch/pytorch:1.6.0-cuda10.1-cudnn7-devel
+FROM pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
+
 
 RUN apt-get update && apt-get install vim -y
 RUN apt-get install psmisc
